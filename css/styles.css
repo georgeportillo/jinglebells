@@ -1,0 +1,17 @@
+body{background-color: #a52714; color: #fff; margin: 0px;font-family: Roboto, Serif; font-weight: 100; line-height: 29px;overflow:hidden;}
+.subtitle, .title{font-family: Roboto Slab, Serif; font-weight: 100;font-size: 45px;text-align: center; padding-bottom: 60px; opacity: 0;}
+.subtitle{font-size: 13px;text-align: center; padding-top: 60px; opacity: 0;}
+
+.content{width: 70%;margin: 0 auto;overflow: hidden;height: 100vh;display: flex;align-content: center;justify-content: center;flex-wrap: wrap;}
+.content>* {flex-basis: 100%;}
+.icons .icon{width: 19%;display: inline-block; text-align: center;}
+.icons .key{background:url("../img/key.png") no-repeat; width: 32px; height: 32px;position: relative;left: 40%;text-align: center; opacity: 0;}
+.icons .icon img{position: relative;width: 53%;}
+
+.icon img{top: -1000px;-ms-transform: rotate(7deg);-webkit-transform: rotate(7deg);transform: rotate(7deg);transition: transform 1s;}
+
+.apps{top: -300px;-ms-transform: rotate(7deg);-webkit-transform: rotate(7deg);transform: rotate(7deg);}
+.cloud{top: -380px;-ms-transform: rotate(11deg);-webkit-transform: rotate(11deg);transform: rotate(11deg);}
+.docs{top: -420px;-ms-transform: rotate(9deg);-webkit-transform: rotate(9deg);transform: rotate(9deg);}
+.maps{top: -400px;-ms-transform: rotate(10deg);-webkit-transform: rotate(10deg);transform: rotate(10deg);}
+.android{top: -390px;-ms-transform: rotate(12deg);-webkit-transform: rotate(12deg);transform: rotate(12deg);}
