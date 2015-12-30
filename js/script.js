@@ -7,7 +7,7 @@
 
     var initial = true;
     var jingle = new Howl({urls: ['sounds/jinglebells.mp3']});
-    
+
     var initialState = 1500;
 	  var jump = 333;
 
@@ -62,7 +62,7 @@
 	          }, 300);
 	  };
 
-	 //snow.storm();
+	   snow.storm();
 
         $('.icon1').delay(200).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
         $('.icon2').delay(500).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
@@ -72,7 +72,7 @@
 
 
         //Row 1
-        
+
 		setTimeout(playChords.bind(["e1", ".icon3"]), duration(0));
 		setTimeout(playChords.bind(["e1", ".icon3"]), duration(1));
 		setTimeout(playChords.bind(["e1", ".icon3"]), duration(1));
@@ -182,7 +182,7 @@
 			$(icon).animate({top: "0px"},100);
 		}
 
-    
+
 
 
 
