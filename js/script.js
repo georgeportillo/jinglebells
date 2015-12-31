@@ -7,8 +7,13 @@
 
     var initial = true;
     var jingle = new Howl({urls: ['sounds/jinglebells.mp3']});
+<<<<<<< HEAD
 
     var initialState = 1500;
+=======
+    
+    var initialState = 3000;
+>>>>>>> 3fefd7c4b10bebef9cdc965052737089ecc048a1
 	  var jump = 333;
 
   	jQuery.fn.rotate = function(degrees) {
@@ -59,16 +64,16 @@
 	    var t = setInterval(
 	          function(){
 	            snow.snowflex();
-	          }, 300);
+	          }, 600);
 	  };
 
 	   snow.storm();
 
-        $('.icon1').delay(200).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
-        $('.icon2').delay(500).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
-        $('.icon3').delay(300).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
-        $('.icon4').delay(600).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
-        $('.icon5').delay(700).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
+        $('.icon1').delay(500).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
+        $('.icon2').delay(800).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
+        $('.icon3').delay(600).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
+        $('.icon4').delay(900).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
+        $('.icon5').delay(1000).animate({ top: 0 }, {duration: 'slow',easing: 'easeOutBack'}).rotate(0);
 
 
         //Row 1
