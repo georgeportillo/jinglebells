@@ -59,7 +59,7 @@
 	    var t = setInterval(
 	          function(){
 	            snow.snowflex();
-	          }, 300);
+	          }, 600);
 	  };
 
 	 //snow.storm();
