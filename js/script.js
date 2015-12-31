@@ -7,13 +7,7 @@
 
     var initial = true;
     var jingle = new Howl({urls: ['sounds/jinglebells.mp3']});
-<<<<<<< HEAD
-
-    var initialState = 1500;
-=======
-    
-    var initialState = 3000;
->>>>>>> 3fefd7c4b10bebef9cdc965052737089ecc048a1
+    var initialState = 2500;
 	  var jump = 333;
 
   	jQuery.fn.rotate = function(degrees) {
